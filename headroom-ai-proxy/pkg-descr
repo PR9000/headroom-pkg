@@ -1,0 +1,7 @@
+headroom-proxy is a high-performance, transparent reverse proxy written in
+pure Rust using the Axum framework. It is designed to run in front of the
+existing Headroom Python proxy, handling HTTP, Server-Sent Events (SSE), and
+WebSocket requests with minimal overhead.
+
+It includes native Bedrock SigV4 signing, GCP Application Default Credentials
+support, and optimized streaming parser logic.
