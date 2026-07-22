@@ -9,7 +9,8 @@ WWW=			https://github.com/headroomlabs-ai/headroom
 LICENSE=		APACHE20
 
 
-USES=			cargo
+USES=			cargo cmake:build perl5
+USE_PERL5=		build
 
 USE_GITHUB=		yes
 GH_ACCOUNT=		PR9000
