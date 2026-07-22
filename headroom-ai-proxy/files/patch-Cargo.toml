@@ -6,5 +6,5 @@
  incremental = false
 +
 +[patch.crates-io]
-+ort = { git = "https://github.com/pykeio/ort", branch = "main" }
++ort = { path = "../ort-6be513209d40e58ffeebdaaf46cba37d3e967b1e" }
 +

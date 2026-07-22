@@ -14,9 +14,8 @@ USE_PERL5=		build
 BUILD_DEPENDS=		cmake:devel/cmake-core
 
 USE_GITHUB=		yes
-GH_ACCOUNT=		PR9000
-GH_PROJECT=		headroom
-GH_TAGNAME=		315b9f687a0c35a973080f01539d128ed09099b4
+GH_TUPLE=		PR9000:headroom:315b9f687a0c35a973080f01539d128ed09099b4:DEFAULT \
+			pykeio:ort:6be513209d40e58ffeebdaaf46cba37d3e967b1e:ort
 
 
 CARGO_INSTALL_PATH=	crates/headroom-proxy
