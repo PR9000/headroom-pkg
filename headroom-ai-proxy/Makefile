@@ -7,7 +7,7 @@ COMMENT=		Headroom transparent reverse proxy
 WWW=			https://github.com/headroomlabs-ai/headroom
 
 LICENSE=		APACHE20
-LICENSE_FILE=		${WRKSRC}/LICENSE
+
 
 USES=			cargo
 
