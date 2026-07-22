@@ -23,6 +23,9 @@ CARGO_INSTALL_PATH=	crates/headroom-proxy
 
 PLIST_FILES=		bin/headroom-ai-proxy
 
+post-extract:
+	@${CP} ${FILESDIR}/Cargo.lock ${WRKSRC}/Cargo.lock
+
 post-install:
 	${MV} ${STAGEDIR}${PREFIX}/bin/headroom-proxy \
 		${STAGEDIR}${PREFIX}/bin/headroom-ai-proxy
