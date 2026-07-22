@@ -1,8 +1,6 @@
-diff --git a/Cargo.toml b/Cargo.toml
-index 07c308e1..d4ef2f1d 100644
---- a/Cargo.toml
-+++ b/Cargo.toml
-@@ -128,3 +128,7 @@ opt-level = 1
+--- Cargo.toml.orig
++++ Cargo.toml
+@@ -128,3 +128,7 @@
  strip = "none"
  debug = false
  incremental = false
