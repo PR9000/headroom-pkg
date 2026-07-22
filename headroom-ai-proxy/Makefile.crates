@@ -166,6 +166,7 @@ CARGO_CRATES=	adler2-2.0.1 \
 		getrandom-0.3.4 \
 		getrandom-0.4.3 \
 		gif-0.14.2 \
+		glob-0.3.3 \
 		h2-0.4.15 \
 		half-2.7.1 \
 		hashbrown-0.14.5 \
@@ -178,6 +179,7 @@ CARGO_CRATES=	adler2-2.0.1 \
 		hf-hub-0.4.3 \
 		hf-hub-0.5.0 \
 		hmac-0.13.0 \
+		hmac-sha256-1.1.14 \
 		http-0.2.12 \
 		http-1.4.2 \
 		http-body-0.4.6 \
@@ -238,6 +240,7 @@ CARGO_CRATES=	adler2-2.0.1 \
 		loop9-0.1.5 \
 		lru-0.18.1 \
 		lru-slab-0.1.2 \
+		lzma-rust2-0.15.8 \
 		macro_rules_attribute-0.2.2 \
 		macro_rules_attribute-proc_macro-0.2.2 \
 		magika-1.1.0 \
